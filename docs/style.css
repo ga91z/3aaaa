@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f5f7fa;
+  color: #333;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  direction: rtl;
+  font-family: 'Tajawal', sans-serif;
+}
+
+.container {
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 600px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #2c3e50;
+}
+
+.terms-box {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  height: 200px;
+  overflow-y: auto;
+  background-color: #fafafa;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  font-size: 14px;
+  text-align: right;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: 600;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: -10px;
+}
+
+/* RTL text input */
+input[type="text"] {
+  direction: rtl;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  width: 100%;
+}
+button {
+  background-color: #3498db;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+#response {
+  margin-top: 15px;
+  color: green;
+  font-weight: bold;
+}
+input[type="text"] {
+  direction: ltr;
+}
